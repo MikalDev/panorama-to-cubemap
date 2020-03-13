@@ -26,7 +26,7 @@
 
 <body>
   <header>
-    <h1>Panorama to Cubemap</h1>
+    <h1>Panorama to Cubemap V1.2</h1>
     <aside>Convert a 360° panorama to six cube faces.</aside>
   </header>
 
@@ -62,6 +62,7 @@
     <section>
       <h2>Output</h2>
       <p>Click each cube face to save it to your computer.</p>
+      <button onclick="downloadAll(window.downloadList)">Download All</button>
       <div id="cubemap">
         <b id="generating" style="visibility:hidden">Generating...</b>
         <output id="faces"></output>
